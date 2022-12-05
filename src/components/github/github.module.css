@@ -1,0 +1,115 @@
+.gitCalender{
+    /* width:60%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 10%; */
+    /* border:1px solid red; */
+    /* padding: 0% 5% 0% 10%; */
+  }
+  .gitCalender>h3{
+    /* color: #4070F4;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:30px; */
+  }
+  .git{
+    /* width: 100%;
+    border: 1px; */
+  }
+  .gitBox{
+    margin-top: 5%;
+    background-color: white;
+  }
+.GitHubCalendarName{
+  color: #0EB1D2; /*/#4070F4*/
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+  .Github {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid rgb(0, 138, 90);
+    box-shadow: 1px 1px 6px rgb(7, 199, 132);
+  }
+
+  .calender{
+    background-color: #0B0C10;
+  }
+
+  /* .Github1{
+   border: 1px solid white;
+  } */
+  
+  .Github1 > a > img {
+    width: 60%;
+    height: 200px;
+    margin: 30px auto;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 280px) {
+      .Github1 > a > img {
+          width: 85%;
+          height: 200px;
+          margin:auto;
+        }
+        .Github {
+          width: 95%;
+        }
+  }
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    .Github1 > a > img {
+      width: 85%;
+      height: 200px;
+      margin: 10px auto;
+    }
+    .Github {
+      width: 95%;
+    }
+  }
+  @media only screen and (min-width: 376px) and (max-width: 425px) {
+    .Github1 > a > img {
+      width: 85%;
+      height: 200px;
+      margin: auto;
+    }
+    .Github {
+      width: 95%;
+    }
+  }
+  @media only screen and (min-width: 426px) and (max-width: 540px) {
+    .Github1 > a > img {
+      width: 85%;
+      height: 200px;
+      margin: auto;
+    }
+    .Github {
+      width: 95%;
+    }
+  }
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+    .Github1 > a > img {
+      width: 85%;
+      height: 200px;
+      margin:20px auto;
+    }
+    .Github {
+      width: 95%;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Github1 > a > img {
+      width: 85%;
+      height: 200px;
+      margin:20px auto;
+    }
+    .Github {
+      width: 95%;
+    }
+  }
