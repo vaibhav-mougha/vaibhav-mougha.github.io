@@ -14,8 +14,8 @@ export default function Cards(props) {
     <>
     <div className={CardsCSS.container} >
         <div className={CardsCSS.bgImg} style = {{backgroundImage : `url(${props.poster})`}}></div>
-        <h1 style={{textAlign : "center", fontSize : "28px", color:"white", marginBottom : "10px"}}>{props.name}</h1>
-        <p style={{color : "white",marginBottom : "20px"}} className = {CardsCSS.description}>{props.description}</p>
+        <h1 style={{textAlign : "center", fontSize : "28px", color:"black", marginBottom : "10px"}}>{props.name}</h1>
+        <p style={{color : "black",marginBottom : "20px"}} className = {CardsCSS.description}>{props.description}</p>
         <div className={CardsCSS.box}>
             <div className={CardsCSS.icons}>
                     {

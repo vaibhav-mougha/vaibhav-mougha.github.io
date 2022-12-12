@@ -2,7 +2,7 @@ import React from 'react'
 import ContactCSS from "./CSS/Contact.module.css"
 import Heading from '../../components/Heading/Heading'
 import { EmailIcon, PhoneIcon, WarningIcon } from '@chakra-ui/icons'
-import { FaMapMarkerAlt, FaLocationArrow } from "react-icons/fa";
+import { FaMapMarkerAlt, FaLocationArrow,FaGithub,FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -14,8 +14,10 @@ export default function Contact() {
 
     <div className={ContactCSS.content}>
           <div className={ContactCSS.contactInfo}>
-              <h1 style={{color:"#0EB1D2"}}>CONTACT INFO</h1>
+              <h1 style={{color:"#0EB1D2",fontSize:"30px"}}>CONTACT INFO</h1>
               <ul>
+                <li style={{marginLeft:"10px"}}><a target={"blank"} href="https://www.linkedin.com/in/vaibhavmougha/"><span style={{color:"#0EB1D2"}}><FaLinkedin/></span></a> <a target={"blank"} href="https://www.linkedin.com/in/vaibhavmougha/"><span style={{marginLeft:"10px"}}>vaibhavmougha</span></a></li>
+                <li style={{marginLeft:"10px"}}><a target={"blank"} href="https://github.com/vaibhav-mougha"><span style={{color:"#0EB1D2"}}><FaGithub/></span></a> <a target={"blank"} href="https://github.com/vaibhav-mougha"><span style={{marginLeft:"10px"}}>vaibhav-mougha</span></a></li>
                 <li><span style={{color:"#0EB1D2"}}><EmailIcon/></span> <span>tunu1994@gmail.com</span></li>
                 <li><span style={{color:"#0EB1D2"}}><PhoneIcon/></span> <span>+91 8130963653</span></li>
                 <li><span style={{color:"#0EB1D2"}}><FaMapMarkerAlt /></span> <span>Dilshad Garden, New Delhi, India</span></li>

@@ -3,12 +3,14 @@
     min-height : 450px;
     /* margin-right:20px; */
     margin: 0 15px;
-    background-color: rgba(11,12,18,0.8);
+    background-color: #F4F4F4;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
     padding: 20px;
+    border: 3px solid #0EB1D2;
+    border-radius: 20px;
 }
 
 .bgImg{
@@ -60,7 +62,7 @@
 }
 
 .icons > div > p{
-    color: white;
+    color: black;
 }
 /* @media screen and (max-width : 488px) {
     .box{

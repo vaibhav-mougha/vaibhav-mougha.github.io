@@ -7,7 +7,7 @@ export default function Carousel() {
     {
       poster : "./images/espnCricinfo.png",
       name : "espncricinfo.com Clone",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
+      description : "espncricinfo is a sports news website exclusively for the game of cricket. It contains various news, columns, blogs, videos and fantasy sports games. Among its most popular feature are its liveblogs of cricket matches, which includes a bevy of scorecard options, allowing readers to track such aspects of the game as wagon wheels and partnership breakdowns.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
         {img : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png", title : "CSS 3"},
@@ -19,8 +19,8 @@ export default function Carousel() {
     },
     {
       poster : "./images/vnetmed.png",
-      name : "netmed.com Clone",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
+      name : "vnetmed.com Clone",
+      description : "VNETMED is one of India’s most trusted pharmacies, dispensing quality medicines at reasonable prices . Here we can buy and send medicines from any corner of the country - with just a few clicks of the mouse.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
         {img : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png", title : "CSS 3"},
@@ -33,7 +33,7 @@ export default function Carousel() {
     {
       poster : "./images/naukri.com.png",
       name : "naukri.com Clone",
-      description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
+      description : "naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, and job seekers.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
         {img : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png", title : "CSS 3"},
