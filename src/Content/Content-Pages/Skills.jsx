@@ -10,6 +10,7 @@ import { HiBolt } from "react-icons/hi2";
 export default function Skills() {
   return (
     <>
+    <div style={{marginTop:"200px"}}></div>
     <div className={SkillsCSS.container} id="skills">
     <div className={SkillsCSS.skillPage}>
         <Heading heading = "Skills" before = "My"/>
@@ -19,7 +20,8 @@ export default function Skills() {
             <div className={SkillsCSS.img} style = {{backgroundImage : `url("./images/Programming.gif")`, backgroundRepeat:"no-repeat", backgroundPosition : "center"}}>
             </div>
             <div className={SkillsCSS.img}>
-              <h1 className={SkillsCSS.heading}>Full Stack Development</h1>
+            {/* <h1 className={SkillsCSS.heading}>Tech Stack & Tools </h1> */}
+              <h1 className={SkillsCSS.heading}>Tech Stack & Tools </h1>
 
               <div className={SkillsCSS.skillIcons}>
                   <SkillIcons img = "https://cdn-icons-png.flaticon.com/512/1051/1051277.png"/>
