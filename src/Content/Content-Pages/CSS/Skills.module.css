@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 20px 20px;
+    background-color: white;
+}
+.skillPage{
+    width: 100%;
+}
+
+.skillContainer{
+    width: 100%;
+    /* border: 1px solid white; */
+    min-height: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+
+.skillContainer > div{
+    /* border: 1px solid white; */
+    min-height: 200px;
+}
+
+@media screen and (max-width : 1089px) {
+    .skillContainer{
+        grid-template-columns: 1fr;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width : 428px) {
+    
+}
+
+.skillContainer > div{
+    min-height: 500px;
+}
+.img{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid white; */
+}
+
+.img > .heading{
+    font-size: 28px;
+    color: black;
+}
+
+.img > *{
+    margin-bottom: 20px;
+}
+
+
+
+.skillIcons{
+    /* border: 1px solid white; */
+    width: 100%;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.desc{
+    list-style-type:none;
+}
+.desc > li{
+    color: black;
+    font-size : 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.desc > li > span{
+    color: #0EB1D2;
+    margin-right: 10px;
+}
+
+@media screen and (max-width : 500px) {
+    .skillIcons{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

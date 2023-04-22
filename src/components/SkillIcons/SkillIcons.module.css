@@ -1,0 +1,24 @@
+.icons{
+    height: 9rem;
+    width:9rem;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border: 3px solid #0EB1D2;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 38px;
+    border-radius: 0.7rem;
+    margin-bottom: 30px;
+}
+
+/* .icons > img{
+    width: 3rem;
+    height: 3rem;
+} */
