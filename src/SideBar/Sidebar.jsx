@@ -10,7 +10,7 @@ export default function Sidebar() {
   console.log(showSideBar)
   return (
     <>
-        <div className={SidebarCSS.container} style = {showSideBar? {display : "block", left : "0px", zIndex : "1000"} : null}>
+        <div id="nav-menu" className={SidebarCSS.container} style = {showSideBar? {display : "block", left : "0px", zIndex : "1000"} : null}>
           <CloseIcon color={'white'} id = {SidebarCSS.close} onClick = {() =>{removeSideBarClick()}} style = {showSideBar? {display : "block"} : null}/>
             <div className={SidebarCSS.innerContainer}>
                 <SidebarProfilePicture />
