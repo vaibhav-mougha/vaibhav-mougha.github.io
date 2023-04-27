@@ -5,7 +5,7 @@ import SidebarProfilePicture from './SidebarProfilePicture'
 import { CloseIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 import { FontentAPI } from '../ContextApp/Fontent'
 
-export default function Sidebar() {
+export default function Navbar() {
   let {showSideBar, removeSideBarClick} = useContext(FontentAPI);
   console.log(showSideBar)
   return (
